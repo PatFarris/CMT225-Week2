@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link href="./styles/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Tip Calculator</h1>
+
+    <form id="tip_form" name="tip_form" action="index.html" method="get">
+        <label for="din">Cost of dinner:</label>
+        <input type="number" id="din" name="din" required>
+        <br>
+        <label for="per">Percentage you'd like to tip:</label>
+        <input type="number" id="per" name="per" required>
+        <br>
+        <input type="button" value="Calculate Total" id="calc" onclick="cal()">
+        <br>
+        <input type="submit" value="Clear Form" id="clear">
+
+        <div id="data"></div>
+    </form>
+
+    <script src="./scripts/C3.js"></script>
+</body>
+</html>

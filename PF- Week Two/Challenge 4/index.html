@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area/Perimeter Calculator</title>
+    <link href="./styles/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Rectangular Area and Perimeter Calculator</h1>
+
+    <form id="rec_form" name="rec_form" action="index.html" method="get">
+        <label for="len">Length of your rectangle (in inches):</label>
+        <input type="number" id="len" name="len">
+        <br>
+        <label for="wid">Width of your rectangle (in inches):</label>
+        <input type="number" id="wid" name="wid">
+        <br>
+        <input type="button" value="Calculate" id="cal">
+        <br>
+        <input type="submit" value="Clear Form" id="clear">
+
+        <div id="data"></div>
+    </form>
+    
+    <script src="./scripts/C4.js"></script>
+</body>
+</html>
